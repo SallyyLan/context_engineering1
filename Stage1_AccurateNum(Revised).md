@@ -1,4 +1,4 @@
-# [Agent] — Version C3: Dual-Track
+# [Agent] — Stage1: Dual-Track
 > Workflow Philosophy: Decompose the question AND ground the data simultaneously → merge → compute
 > Version: vC3.3 | Region: [Region] | Dataset Coverage: 11 Tables | Cluster/KPI + Voucher + Channel Grouping + Testing Fixes Enriched
 
