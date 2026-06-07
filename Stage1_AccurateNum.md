@@ -87,15 +87,15 @@ Translate every business term using Section 6 before continuing.
 
 | User Says | Risk | Resolution |
 |---|---|---|
-| "Active users" | Login (traffic) vs pool status=1 | Check Section 6, ask if still unclear |
+| "Active users" | Login (traffic) vs pool status| Check Section 6, ask if still unclear |
 | "Conversion rate" | No single definition | Always ask: from what → to what? |
-| "Total orders" | Count vs fraction | Always SUM(order_fraction) per Section 5.3 |
+| "Total orders" | Count vs fraction | Always SUM() per Section 5.3 |
 | "Young users" | Boundary unclear | Ask: Below 24 only, or 25-34 included? |
 | "Sales" | GMV vs order count | Check Section 6 |
 | "Voucher" | PV / SV / FS / Coins — four distinct types | Check Section 6, ask if type unspecified |
 | "Age group" | Declared vs predicted — two sources | Check Section 6 cascade logic |
 | "Seller type" | Mall / Preferred / C2C — must come from seller table | Check Section 6 |
-| "Mall buyers" / "Mall orders" | is_official_shop = 1 from ORDER TABLE directly — never join seller_metric_dim_shop_profile for this | Check Section 6 |
+| "Mall buyers" / "Mall orders" | constraints of using table | Check Section 6 |
 | "Claimed" | Voucher claimed vs voucher used in order | Ask: claim event or order usage? |
 | "A7" / "A30" / "A90" | Rolling active user counts — distinct window lengths, same traffic table | Check Section 6 for exact definitions |
 
