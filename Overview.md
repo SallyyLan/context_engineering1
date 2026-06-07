@@ -7,8 +7,6 @@
 
 Built as part of an internal AI tooling initiative to reduce analyst dependency on ad-hoc SQL requests. The instruction file was iteratively refined through failure analysis — each hard rule maps to a real error pattern observed in production queries.
 
-This repository contains the **sanitized version** of the instruction file with company-specific identifiers removed.
-
 ---
 
 
