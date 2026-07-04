@@ -1,6 +1,7 @@
 # LLM Agent Instruction Architecture — Accurate Metric Retrieval via Natural Language
 
 > Context engineering for an internal LLM-powered data agent. The goal: let non-technical marketing analysts get accurate numbers from complex data warehouses — just by asking questions in plain language.
+> Note: this is a generalized reconstruction of a methodology I designed professionally. Company name, real schema, table names, and business data have been removed or abstracted.
 
 ---
 ## Project Context
