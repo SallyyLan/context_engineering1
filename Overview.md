@@ -68,18 +68,15 @@ Getting the question right matters as much as getting the data right. The remain
 
 ## Project Stages
 
-**Stage 1 — Accurate Number Extraction** 
+**Accurate Number Extraction** 
 
 Ensuring the agent produces reliable, BI-aligned numbers from a single dataset in response to natural language questions. This means resolving ambiguous business terms, verifying schema live, applying the correct filters and aggregation methods, and declaring confidence explicitly on every answer.
 
-**Stage 2 — Cross-Dataset Analysis** 
-
-Extends the same dual-track approach to allow analysts to join above 5 datasets in a single natural language question. The goal is to support full campaign funnel analysis. For example: traffic → user segment → voucher engagement → order conversion.
 
 ---
 
 
-## What's in Stage 1 File
+## What's in File
 
 | Section | What It Does |
 |---|---|
